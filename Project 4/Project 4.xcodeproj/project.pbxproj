@@ -20,6 +20,9 @@
 		D5E3CFDB1E4A6366007BB423 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CFDA1E4A6366007BB423 /* Extensions.swift */; };
 		D5E3CFDD1E4A9CD5007BB423 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5E3CFDC1E4A9CD5007BB423 /* GoogleService-Info.plist */; };
 		D5E3CFDF1E4BC4A3007BB423 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CFDE1E4BC4A3007BB423 /* ChatLogController.swift */; };
+		D5E3CFE11E4D17F4007BB423 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CFE01E4D17F4007BB423 /* Message.swift */; };
+		D5E3CFE41E4E4269007BB423 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CFE31E4E4269007BB423 /* UserCell.swift */; };
+		D5E3CFE61E4FA599007BB423 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E3CFE51E4FA599007BB423 /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		D5E3CFDA1E4A6366007BB423 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D5E3CFDC1E4A9CD5007BB423 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D5E3CFDE1E4BC4A3007BB423 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		D5E3CFE01E4D17F4007BB423 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D5E3CFE31E4E4269007BB423 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		D5E3CFE51E4FA599007BB423 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 		D51B02B31E412837002E4FCD /* Project 4 */ = {
 			isa = PBXGroup;
 			children = (
+				D5E3CFE21E4E424B007BB423 /* View */,
 				D5E3CFD91E4A633A007BB423 /* Helpers */,
 				D5E3CF8E1E4663B1007BB423 /* Model */,
 				D51B02C61E412C3C002E4FCD /* Controller */,
@@ -121,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				D5E3CF8F1E4663CB007BB423 /* User.swift */,
+				D5E3CFE01E4D17F4007BB423 /* Message.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -131,6 +139,15 @@
 				D5E3CFDA1E4A6366007BB423 /* Extensions.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D5E3CFE21E4E424B007BB423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5E3CFE31E4E4269007BB423 /* UserCell.swift */,
+				D5E3CFE51E4FA599007BB423 /* ChatMessageCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +278,13 @@
 				D5E3CFDF1E4BC4A3007BB423 /* ChatLogController.swift in Sources */,
 				D5E3CF8D1E46552F007BB423 /* NewMessageController.swift in Sources */,
 				D51B02B71E412837002E4FCD /* MessagesController.swift in Sources */,
+				D5E3CFE11E4D17F4007BB423 /* Message.swift in Sources */,
 				D51B02C81E412C5B002E4FCD /* LoginController.swift in Sources */,
 				D5E3CF901E4663CB007BB423 /* User.swift in Sources */,
 				D51B02B51E412837002E4FCD /* AppDelegate.swift in Sources */,
+				D5E3CFE61E4FA599007BB423 /* ChatMessageCell.swift in Sources */,
 				D5E3CFD81E491EB9007BB423 /* LoginFunctions.swift in Sources */,
+				D5E3CFE41E4E4269007BB423 /* UserCell.swift in Sources */,
 				D5E3CFDB1E4A6366007BB423 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
