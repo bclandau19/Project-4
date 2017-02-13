@@ -12,4 +12,4 @@ Users can either sign in or register upon opening the app, and then upload a use
 
 ![screenshot1](/Users/benjaminlandau/Desktop/Screen Shot 2017-02-13 at 11.10.41 AM.png “Optional Title)
 
-![screenshot1](Screen Shot 2017-02-13 at 11.10.18 AM.png “Optional Title)
+![screenshot1](screenshots/Screen Shot 2017-02-13 at 11.10.55 AM.png “Optional Title)
