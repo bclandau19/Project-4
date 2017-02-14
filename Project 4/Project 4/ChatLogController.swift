@@ -84,6 +84,24 @@ class ChatLogController: UICollectionViewController, UITextFieldDelegate, UIColl
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! ChatMessageCell
         let message = messages[indexPath.item]
+        
+        if let profileImageUrl = self.user?.profileImageURL {
+            cell.profileImageView.loadImageUsingCacheWithUrlString(UrlString: profileImageUrl as AnyObject)
+        }
+        
+        if message.fromID == FIRAuth.auth()?.currentUser?.uid {
+            cell.textView.textColor = UIColor.white
+            cell.bubbleView.backgroundColor = ChatMessageCell.blueColor
+            cell.profileImageView.isHidden = true
+            cell.bubbleViewRightAnchor?.isActive = true
+            cell.bubbleViewLeftAnchor?.isActive = false
+        } else {
+            cell.textView.textColor = UIColor.black
+            cell.bubbleView.backgroundColor = UIColor(r: 240, g: 240, b: 240)
+            cell.bubbleViewRightAnchor?.isActive = false
+            cell.bubbleViewLeftAnchor?.isActive = true
+            cell.profileImageView.isHidden = false
+        }
         cell.textView.text = message.text
         cell.bubbleWidthAnchor?.constant = estimateFrameForText(text: message.text!).width + 32
         return cell
