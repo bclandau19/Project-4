@@ -5,11 +5,7 @@ Users can either sign in or register upon opening the app, and then upload a use
 
 
 
+![screen shot 2017-02-24 at 6 22 57 pm](https://cloud.githubusercontent.com/assets/20802462/23324810/520add1a-fabe-11e6-9449-c5e389d566f9.png)
+![screen shot 2017-02-24 at 6 00 40 pm](https://cloud.githubusercontent.com/assets/20802462/23324840/8deb3410-fabe-11e6-82e4-627be2ac31e7.png)
+![screen shot 2017-02-24 at 6 00 52 pm](https://cloud.githubusercontent.com/assets/20802462/23324841/8f23d71a-fabe-11e6-85b9-91dffbef2deb.png)
 
-![screenshot1](Screen Shot 2017-02-13 at 11.10.41 AM.png “Optional Title)
-
-![screenshot1](Screen Shot 2017-02-13 at 11.10.55 AM.png “Optional Title)
-
-![screenshot1](/Users/benjaminlandau/Desktop/Screen Shot 2017-02-13 at 11.10.41 AM.png “Optional Title")
-
-![screenshot1](screenshots/Screen Shot 2017-02-13 at 11.10.55 AM.png “Optional Title")
