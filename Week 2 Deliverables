@@ -1,0 +1,7 @@
+![screen shot 2017-02-24 at 6 00 05 pm](https://cloud.githubusercontent.com/assets/20802462/23324469/f585ce62-fabb-11e6-85ed-833c187a94e1.png)
+
+
+
+
+This app creates basic functionality for two of the users registered in the Data base to be able to quickly communicate and talk to each other.
+Some of the technology used includes Firebase, where all my users, images, and messages were stored. I also used programmtic user interface code instead of storyboard.
