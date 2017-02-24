@@ -53,3 +53,8 @@ Screenshots of User Interface
 
 ![screen shot 2017-02-24 at 6 00 52 pm](https://cloud.githubusercontent.com/assets/20802462/23324399/885d5e86-fabb-11e6-9fc8-2d07b8bc1090.png)
 
+
+![screen shot 2017-02-24 at 6 00 40 pm](https://cloud.githubusercontent.com/assets/20802462/23324465/f2b5bf4e-fabb-11e6-90ff-1f0c532d8ea0.png)
+
+![screen shot 2017-02-24 at 6 00 05 pm](https://cloud.githubusercontent.com/assets/20802462/23324469/f585ce62-fabb-11e6-85ed-833c187a94e1.png)
+
