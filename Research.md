@@ -44,3 +44,12 @@ Research Plan
      Profile image enabled
      Segmented Control
      Chat back and forth functionality
+     
+     
+     
+     
+Screenshots of User Interface
+
+
+![screen shot 2017-02-24 at 6 00 52 pm](https://cloud.githubusercontent.com/assets/20802462/23324399/885d5e86-fabb-11e6-9fc8-2d07b8bc1090.png)
+
