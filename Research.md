@@ -45,6 +45,10 @@ Research Plan
      Segmented Control
      Chat back and forth functionality
      
+ Screenshot of competitive research analysis
+ 
+ ![screen shot 2017-02-24 at 6 42 20 pm](https://cloud.githubusercontent.com/assets/20802462/23325151/18fe7a38-fac1-11e6-90df-5ba3a74eea78.png)
+
      
      
      
