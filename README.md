@@ -1,7 +1,9 @@
 # Project-4
 Project 4 repo
 My Chat Application is an app that allows users to chat with each other similarly to the default apple texting application.
-Users can either sign in or register upon opening the app, and then upload a user profile picture and get logged in.  After being logged in, a user can message a contact in their address book by composing a new text. This is the overall functionality of this application. This app uses Firebase as its back end data base to store users images and messages. In terms of design i decided to create this app programmatically. I chose to use segmented control for the user login page, and then just went with a simple, easy to use design. There were some hurdles I had to overcome in terms of errors but it wasnt anything that I couldnt overcome. 
+Users can either sign in or register upon opening the app, and then upload a user profile picture and get logged in.  After being logged in, a user can message a contact in their address book by composing a new text. This is the overall functionality of this application. This app uses Firebase as its back end data base to store users images and messages. In terms of design i decided to create this app programmatically. I chose to use segmented control for the user login page, and then just went with a simple, easy to use design. There were some hurdles I had to overcome in terms of errors but it wasnt anything that I couldnt too hard to solve.
+
+Mock Review: "This app was very easy and simple to use. Me and all my friends use this app to keep in contact with each other, I would definitely recommend it!"
 
 
 
